@@ -1,0 +1,12 @@
+C:\Users\lars-\Documents\avans jaar 2\stage\Token-Authentication-API\Api-Database_Project\Api-Domain\bin\Debug\Api-Domain.dll.config
+C:\Users\lars-\Documents\avans jaar 2\stage\Token-Authentication-API\Api-Database_Project\Api-Domain\bin\Debug\Api-Domain.dll
+C:\Users\lars-\Documents\avans jaar 2\stage\Token-Authentication-API\Api-Database_Project\Api-Domain\bin\Debug\Api-Domain.pdb
+C:\Users\lars-\Documents\avans jaar 2\stage\Token-Authentication-API\Api-Database_Project\Api-Domain\bin\Debug\EntityFramework.dll
+C:\Users\lars-\Documents\avans jaar 2\stage\Token-Authentication-API\Api-Database_Project\Api-Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lars-\Documents\avans jaar 2\stage\Token-Authentication-API\Api-Database_Project\Api-Domain\bin\Debug\EntityFramework.xml
+C:\Users\lars-\Documents\avans jaar 2\stage\Token-Authentication-API\Api-Database_Project\Api-Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lars-\Documents\avans jaar 2\stage\Token-Authentication-API\Api-Database_Project\Api-Domain\obj\Debug\Api-Domain.csproj.CoreCompileInputs.cache
+C:\Users\lars-\Documents\avans jaar 2\stage\Token-Authentication-API\Api-Database_Project\Api-Domain\obj\Debug\Api-Domain.csproj.CopyComplete
+C:\Users\lars-\Documents\avans jaar 2\stage\Token-Authentication-API\Api-Database_Project\Api-Domain\obj\Debug\Api-Domain.dll
+C:\Users\lars-\Documents\avans jaar 2\stage\Token-Authentication-API\Api-Database_Project\Api-Domain\obj\Debug\Api-Domain.pdb
+C:\Users\lars-\Documents\avans jaar 2\stage\Token-Authentication-API\Api-Database_Project\Api-Domain\obj\Debug\Api-Domain.csprojAssemblyReference.cache
