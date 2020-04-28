@@ -7,3 +7,4 @@ C:\Users\lars-\Documents\avans jaar 2\stage\Token-Authentication-API\Api-Databas
 C:\Users\lars-\Documents\avans jaar 2\stage\Token-Authentication-API\Api-Database_Project\Api-Database_Project\obj\Debug\refactor.xml
 C:\Users\lars-\Documents\avans jaar 2\stage\Token-Authentication-API\Api-Database_Project\Api-Database_Project\obj\Debug\postdeploy.sql
 C:\Users\lars-\Documents\avans jaar 2\stage\Token-Authentication-API\Api-Database_Project\Api-Database_Project\obj\Debug\predeploy.sql
+C:\Users\lars-\Documents\avans jaar 2\stage\Token-Authentication-API\Api-Database_Project\Api-Database_Project\obj\Debug\Api-Database_Project.sqlprojAssemblyReference.cache

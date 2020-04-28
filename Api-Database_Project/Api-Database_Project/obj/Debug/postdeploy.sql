@@ -26,9 +26,12 @@ Values(UserName, UserPassword, UserRole, UserEmail);
 Merge into Products AS Target 
 Using(Values 
     (1, 'Website Laravel', 100000),
-    (2, 'Sollicitatie bij Luuk', 20 ),
+    (2, 'PHP website', 350),
     (3, 'Website ASP.net', 400),
-    (4, 'Google', 2)
+    (4, 'Google', 200),
+    (5, 'Basis website', 300),
+    (6, 'Website met Map', 310),
+    (7, 'ASP.net API', 50)
 ) 
 AS source(Id, Name, Price)
 On Target.Id = Source.Id
