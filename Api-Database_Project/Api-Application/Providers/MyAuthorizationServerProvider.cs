@@ -45,13 +45,11 @@ namespace Api_Application.Providers
             Client client = (new ClientRepository()).ValidateClient(clientId, clientSecret);
             if (client != null)
             {
-                // Client has been verified.
                 context.OwinContext.Set<Client>("oauth:client", client);
                 context.Validated(clientId);
             }
             else
             {
-                // Client could not be validated.
                 context.SetError("invalid_client", "Client credentials are invalid.");
                 context.Rejected();
             }

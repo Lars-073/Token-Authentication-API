@@ -19,14 +19,10 @@ namespace Api_Application.Providers
             OAuthAuthorizationServerOptions options = new OAuthAuthorizationServerOptions
             {
                 AllowInsecureHttp = true,
-                //The Path For generating the Toekn
                 TokenEndpointPath = new PathString("/token"),
-                //Setting the Token Expired Time (24 hours)
                 AccessTokenExpireTimeSpan = TimeSpan.FromDays(1),
-                //MyAuthorizationServerProvider class will validate the user credentials
                 Provider = new MyAuthorizationServerProvider()
             };
-            //Token Generations
             app.UseOAuthAuthorizationServer(options);
             app.UseOAuthBearerAuthentication(new OAuthBearerAuthenticationOptions());
 
