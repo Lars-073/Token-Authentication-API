@@ -12,9 +12,9 @@ namespace Api_Application.Repositories
 
         public Client ValidateClient(string ClientID, string ClientSecret)
         {
-            return context.Clients.FirstOrDefault(user =>
-             user.ClientId == ClientID
-            && user.ClientSecret == ClientSecret);
+            return context.Clients.FirstOrDefault(client =>
+             client.ClientId == ClientID
+            && client.ClientSecret == ClientSecret);
         }
 
         public void Dispose()

@@ -27,7 +27,7 @@ namespace Api_Application.Controllers
             return Ok(JsonProducts);
         }
 
-        [Authorize(Roles = "User, ")]
+        [Authorize(Roles = "SuperAdmin")]
         [HttpGet]
         [Route("api/GetProductMostExpensive")]
         public IHttpActionResult GetProductMostExpensive()
