@@ -16,13 +16,13 @@ namespace Api_Application.Providers
         {
             using (UserRepository _repo = new UserRepository())
             {
-                var user = _repo.ValidateUser(context.UserName, context.Password);
+                User user = _repo.ValidateUser(context.UserName, context.Password);
                 if (user == null)
                 {
                     context.SetError("invalid_grant", "Provided username and password is incorrect");
                     return;
                 }
-                var identity = new ClaimsIdentity(context.Options.AuthenticationType);
+                ClaimsIdentity identity = new ClaimsIdentity(context.Options.AuthenticationType);
                 identity.AddClaim(new Claim(ClaimTypes.Role, user.UserRole));
                 identity.AddClaim(new Claim(ClaimTypes.Name, user.Username));
                 identity.AddClaim(new Claim("Email", user.UserEmail));
